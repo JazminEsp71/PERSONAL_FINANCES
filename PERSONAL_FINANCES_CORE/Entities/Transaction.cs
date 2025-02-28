@@ -6,10 +6,10 @@ public class Transaction
     public string concept { get; set; }
     public double money { get; set; }
     public string category { get; set; }
-    public Transaction Type {get; set;}
+    public TransactionType Type {get; set;}
     public int id_account { get; set; }
 
-    public Transaction(int id_transaction, string concept, double money, string category, Transaction Type,
+    public Transaction(int id_transaction, string concept, double money, string category, TransactionType Type,
         int id_account)
     {
         this.id_transaction = id_transaction;

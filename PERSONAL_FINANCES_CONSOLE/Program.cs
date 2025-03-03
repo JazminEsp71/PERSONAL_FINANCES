@@ -4,6 +4,8 @@ using PERSONAL_FINANCES_CORE.Services;
 using PERSONAL_FINANCES_CORE.Managers;
 using PERSONAL_FINANCES_CORE.Enums;
 
+namespace PERSONAL_FINANCES_CONSOLE;
+
 public static class Program{
 
     public static void Main(string[] args){

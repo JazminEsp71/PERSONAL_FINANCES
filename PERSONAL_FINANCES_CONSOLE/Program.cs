@@ -1,5 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
+using PERSONAL_FINANCES_CORE.Entities;
+using PERSONAL_FINANCES_CORE.Services;
+using PERSONAL_FINANCES_CORE.Managers;
+using PERSONAL_FINANCES_CORE.Enums;
 
 public static class Program{
 
